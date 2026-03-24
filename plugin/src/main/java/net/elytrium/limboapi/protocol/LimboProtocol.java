@@ -509,7 +509,8 @@ public class LimboProtocol {
         createMapping(0x06, ProtocolVersion.MINECRAFT_1_19_4, false),
         createMapping(0x07, ProtocolVersion.MINECRAFT_1_20_5, false),
         createMapping(0x08, ProtocolVersion.MINECRAFT_1_21_2, false),
-        createMapping(0x09, ProtocolVersion.MINECRAFT_1_21_6, false)
+		createMapping(0x09, ProtocolVersion.MINECRAFT_1_21_6, false),
+		createMapping(0x0B, ProtocolVersion.MINECRAFT_1_21_11, false)
     );
   }
 
